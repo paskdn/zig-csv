@@ -11,7 +11,7 @@ pub fn build(b: *std.Build) void {
     });
 
     const lib = b.addStaticLibrary(.{
-        .name = "zig-cvs",
+        .name = "zig-csv",
         .root_source_file = .{ .path = "src/zig-csv.zig" },
         .optimize = mode,
         .target = target,
